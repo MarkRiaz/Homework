@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Didact+Gothic|Comfortaa:400,700&subset=latin,cyrillic);
+body {
+  background: linear-gradient(90deg, #840913, #141461);
+}
+.main {
+  box-shadow: 0 0 50px rgba(0,0,0,0.5);
+  display: flex;
+  flex-flow: column;
+  border: 2px solid #b6b98d;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 175px;
+}
+.prime-screen {
+  font-family: 'Comfortaa', cursive;
+  width: 93.7%;
+  font-size: 2rem;
+  height: 60px;
+  border: none;
+  color: #b6b98d;
+  text-align: center;
+  padding-right: 20px;
+  padding-left: 10px;
+}
+
+.prime-screen:focus {
+  outline: none;
+}
+
+.prime-key {
+  font-family: 'Comfortaa', cursive;
+  align-content: space-around;
+  height: 60px;
+  background-color: #b6b98d;
+  border: 1px solid #b6b98d;
+  background-color: transparent;
+  font-size: 2rem;
+  color: #b6b98d;
+  transition: all 0.3s ease;
+  width: 100%;
+  order: 1;
+}
+
+.again-key {
+  font-family: 'Comfortaa', cursive;
+  align-content: space-around;
+  height: 60px;
+  background-color: #b6b98d;
+  border: 1px solid #b6b98d;
+  background-color: transparent;
+  font-size: 2rem;
+  color: #b6b98d;
+  transition: all 0.3s ease;
+  width: 100%;
+  order: 2;
+}
+
+.back-key {
+  margin: auto;
+  font-family: 'Comfortaa', cursive;
+  height: 55px;
+  background-color: #b6b98d;
+  border: 1px solid #b6b98d;
+  background-color: transparent;
+  font-size: 2rem;
+  color: #b6b98d;
+  transition: all 0.3s ease;
+  width: 100%;
+  order: 3;
+  text-decoration: none;
+  text-align: center;
+}
+
+.back-key:hover {
+  background-color: #b6b98d;
+  color: #1d0320;
+}
+
+.prime-key:hover {
+  background-color: #b6b98d;
+  color: #1d0320;
+}
+button:focus {
+  outline: none;
+}
